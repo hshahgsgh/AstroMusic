@@ -7,6 +7,7 @@
         name: "autoplay",
         description: "Toggles autoplay for the current guild.",
         cooldown: 5000,
+        aliases: ['auto', 't'],
         async execute(client, message, args) {
             try {
                 const queue = distube.getQueue(message)
